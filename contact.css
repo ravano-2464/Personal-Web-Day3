@@ -28,8 +28,5 @@
     padding: 10px;
     width: 100px;
     border-radius: 10px;
-}
-
-.btn-submit:hover {
-    cursor: pointer; 
+    cursor: pointer;
 }
