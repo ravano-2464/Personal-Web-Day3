@@ -53,13 +53,10 @@ body {
     display: flex;
     flex-direction: row;
     gap: 30px;
-
 }
 
 .img-logo {
     width: 20px;
-
-
 }
 
 .img-me {
@@ -87,7 +84,6 @@ body {
     align-items: center;
     width: 100%;
     margin-left: 20px;
-
 }
 
 .content-navigation {
@@ -110,9 +106,16 @@ body {
 }
 
 .nav-link {
-    font-size: 20px;
+    font-size: 25px;
 }
 
-.nav-link:hover {
+.nav-link a {
+    color: black;
+    white-space: nowrap;
+    display: block;
+    text-decoration: none;
+}
+
+.nav-link a:hover {
     color: orangered;
 }
